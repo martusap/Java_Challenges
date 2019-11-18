@@ -12,4 +12,4 @@ function myFunction() {
   document.getElementById("hazzah").innerHTML = "Hazzah";
 };
 
-document.addEvent addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);

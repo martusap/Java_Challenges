@@ -1,6 +1,13 @@
 function ready() {
-    console.log("page ready");
+    up.onclick = function() {
+        this.classList.add("hide");
+        down.classList.remove("hide");
+    }
 
+    down.onclick = function() {
+        this.classList.add("hide");
+        up.classList.remove("hide");
+    }
 }
 
-document.addEvent addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);

@@ -10,4 +10,4 @@ setInterval(() => {
 }, 2000)
 
 
-document.addEvent addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);

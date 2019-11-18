@@ -3,4 +3,4 @@ function ready() {
 
 }
 
-document.addEvent addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);
