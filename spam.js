@@ -7,9 +7,10 @@
     //     hazzah.append("Hazzah");
     // };
 // }
-
-function myFunction() {
-  document.getElementById("hazzah").innerHTML = "Hazzah";
+ let i=0;
+while (i < 3)
+  hazzah.onclick = function() {
+    hazzah.append("Hazzah");
 };
 
 document.addEventListener("DOMContentLoaded", ready);
